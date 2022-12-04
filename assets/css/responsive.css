@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 830px) {
+    
+    .container {
+        padding: 0 2rem;
+    }
+
+    /* LOGO */
+    .cabecalho__logo img {
+        max-width: 4rem;
+    }
+
+    /* LISTA DE LINKS */
+    .navegecao__listaLinks {
+        display: none;
+    }
+
+    /* CONTEÚDO */
+    .conteudo {
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .conteudo__descricao h1 {
+        font-size: 3em;
+    }
+
+    .conteudo__descricao h1 strong {
+        font-size: 1em;
+    }
+
+    .conteudo__descricao a {
+        width: 100%;
+    }
+
+}
