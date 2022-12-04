@@ -7,9 +7,6 @@
 }
 
 /* CORPO */
-html {
-    height: 100%;
-}
 body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -40,6 +37,10 @@ body {
 
 /* ÁREA DE NAVEGAÇÃO */
 .cabecalho__navegacao {}
+
+#btnMenu {
+    display: none;
+}
 
 .navegecao__listaLinks {
     display: flex;

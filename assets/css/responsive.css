@@ -11,9 +11,72 @@
         max-width: 4rem;
     }
 
+    /* BOTÃO MOBILE */
+    #btnMenu {
+        display: block;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btnMenu__icon {}
+
+    /* CLASSE ATIVADA COM JAVASCRIPT */
+    .navegecao__listaLinks.ativado {
+        left: 0;
+    } 
+
     /* LISTA DE LINKS */
     .navegecao__listaLinks {
+        position: fixed;
+        left: -100%;
+        flex-direction: column;
+        background-color: #000000ed;
+        height: 100vh;
+        top: 0;
+        width: 65%;
+        padding-top: 1.1rem;
+        gap: 0;
+        align-items: unset;
+        z-index: 2;
+        transition: .4s;
+    }
+
+    .listaLinks__item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .listaLinks__item + .listaLinks__item {
+        border-top: 1px solid white;
+    }
+
+    .listaLinks__item a {
+        color: #ffffff99;
+        width: 100%;
+        display: block;
+        transition: .5s;
+    }
+
+    .listaLinks__item a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .listaLinks__item a:hover::after {
         display: none;
+    }
+
+    .listaLinks__botaoLogin {
+        text-align: center;
+    }
+
+    .listaLinks__botaoLogin button {
+        background-color: white;
+        width: 90%;
+        border-radius: 1.8rem;
+        padding: 0.6rem 2.5rem;
+        margin-top: 1rem;
     }
 
     /* CONTEÚDO */
