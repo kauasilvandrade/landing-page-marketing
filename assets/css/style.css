@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {}
+
+/* CORPO */
+body {}
+
+.container {}
+
+/* CABEÇALHO */
+.cabecalho {}
+
+.cabecalho__logo {}
+
+.cabecalho__logo img {}
+
+/* ÁREA DE NAVEGAÇÃO */
+.cabecalho__navegacao {}
+
+.navegecao__listaLinks {}
+
+.listaLinks__item {}
+
+.listaLinks__item a {}
+
+.listaLinks__botaoLogin {}
+
+.listaLinks__botaoLogin button {}
+
+/* CONTEÚDO */
+.conteudo {}
+
+/* DESCRIÇÃO */
+.conteudo__descricao {}
+
+.conteudo__descricao h1 {}
+
+.conteudo__descricao h1 strong {}
+
+.conteudo__descricao p {}
+
+/* IMAGEM */
+.conteudo__img {}
+
+.conteudo__img img {}
